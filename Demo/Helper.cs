@@ -9,7 +9,7 @@ namespace Demo
     internal class Helper<T>where T : class, IComparable<T> 
     {
         //T must be class or struct and implementing the interface Icomparable
-        #region Primary Constrain
+        #region Primary Constraint
         //1-General Primary [0-1]
         //class => T must be class 
         //struct => T must be struct 
@@ -19,7 +19,7 @@ namespace Demo
 
 
         #endregion
-        #region Secondary constrain
+        #region Secondary constraint
         //Interface constrain [0-M]
         //Icomparable<T>
        // T must be class / struct Implementing Icomparable
